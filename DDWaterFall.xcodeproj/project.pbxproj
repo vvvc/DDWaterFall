@@ -13,9 +13,21 @@
 		A54D6F7420C7EF6C0027C1D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A54D6F7320C7EF6C0027C1D7 /* Assets.xcassets */; };
 		A54D6F7720C7EF6C0027C1D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A54D6F7520C7EF6C0027C1D7 /* LaunchScreen.storyboard */; };
 		A54D6F7A20C7EF6C0027C1D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A54D6F7920C7EF6C0027C1D7 /* main.m */; };
+		A54D6F8320C7F0260027C1D7 /* Network.m in Sources */ = {isa = PBXBuildFile; fileRef = A54D6F8220C7F0260027C1D7 /* Network.m */; };
+		A54D6F8520C7F02D0027C1D7 /* content.json in Resources */ = {isa = PBXBuildFile; fileRef = A54D6F8420C7F02D0027C1D7 /* content.json */; };
+		A54D6F9220C7F0830027C1D7 /* MyWaterfall.m in Sources */ = {isa = PBXBuildFile; fileRef = A54D6F8720C7F0820027C1D7 /* MyWaterfall.m */; };
+		A54D6F9320C7F0830027C1D7 /* AFNetworkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A54D6F8B20C7F0830027C1D7 /* AFNetworkTool.m */; };
+		A54D6F9420C7F0830027C1D7 /* UIImage+ImgSize.m in Sources */ = {isa = PBXBuildFile; fileRef = A54D6F8D20C7F0830027C1D7 /* UIImage+ImgSize.m */; };
+		A54D6F9520C7F0830027C1D7 /* DDWaterFallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = A54D6F8F20C7F0830027C1D7 /* DDWaterFallLayout.m */; };
+		A54D6F9620C7F0830027C1D7 /* MyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A54D6F9020C7F0830027C1D7 /* MyCell.xib */; };
+		A54D6F9720C7F0830027C1D7 /* MyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A54D6F9120C7F0830027C1D7 /* MyCell.m */; };
+		E2E2DF82F51619729833F56B /* libPods-DDWaterFall.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 595BE01432589329A2E07F43 /* libPods-DDWaterFall.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		595BE01432589329A2E07F43 /* libPods-DDWaterFall.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DDWaterFall.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66F49D304176392F8F87E53F /* Pods-DDWaterFall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDWaterFall.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DDWaterFall/Pods-DDWaterFall.debug.xcconfig"; sourceTree = "<group>"; };
+		90D0241571C73CDBFE3DC5FA /* Pods-DDWaterFall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDWaterFall.release.xcconfig"; path = "Pods/Target Support Files/Pods-DDWaterFall/Pods-DDWaterFall.release.xcconfig"; sourceTree = "<group>"; };
 		A54D6F6720C7EF6B0027C1D7 /* DDWaterFall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DDWaterFall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A54D6F6A20C7EF6B0027C1D7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A54D6F6B20C7EF6B0027C1D7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +38,21 @@
 		A54D6F7620C7EF6C0027C1D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A54D6F7820C7EF6C0027C1D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A54D6F7920C7EF6C0027C1D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A54D6F8120C7F0260027C1D7 /* Network.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Network.h; sourceTree = "<group>"; };
+		A54D6F8220C7F0260027C1D7 /* Network.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Network.m; sourceTree = "<group>"; };
+		A54D6F8420C7F02D0027C1D7 /* content.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = content.json; sourceTree = "<group>"; };
+		A54D6F8620C7F0820027C1D7 /* MyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCell.h; sourceTree = "<group>"; };
+		A54D6F8720C7F0820027C1D7 /* MyWaterfall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyWaterfall.m; sourceTree = "<group>"; };
+		A54D6F8820C7F0830027C1D7 /* MyWaterfall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyWaterfall.h; sourceTree = "<group>"; };
+		A54D6F8A20C7F0830027C1D7 /* AFNetworkTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkTool.h; sourceTree = "<group>"; };
+		A54D6F8B20C7F0830027C1D7 /* AFNetworkTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkTool.m; sourceTree = "<group>"; };
+		A54D6F8C20C7F0830027C1D7 /* UIImage+ImgSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImgSize.h"; sourceTree = "<group>"; };
+		A54D6F8D20C7F0830027C1D7 /* UIImage+ImgSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImgSize.m"; sourceTree = "<group>"; };
+		A54D6F8E20C7F0830027C1D7 /* DDWaterFallLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDWaterFallLayout.h; sourceTree = "<group>"; };
+		A54D6F8F20C7F0830027C1D7 /* DDWaterFallLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDWaterFallLayout.m; sourceTree = "<group>"; };
+		A54D6F9020C7F0830027C1D7 /* MyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCell.xib; sourceTree = "<group>"; };
+		A54D6F9120C7F0830027C1D7 /* MyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCell.m; sourceTree = "<group>"; };
+		A54D6F9820C7F0900027C1D7 /* PrefixH.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixH.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +60,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2E2DF82F51619729833F56B /* libPods-DDWaterFall.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9A466A9CF2A8EF3EEC6D2F3F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				66F49D304176392F8F87E53F /* Pods-DDWaterFall.debug.xcconfig */,
+				90D0241571C73CDBFE3DC5FA /* Pods-DDWaterFall.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A54D6F5E20C7EF6B0027C1D7 = {
 			isa = PBXGroup;
 			children = (
 				A54D6F6920C7EF6B0027C1D7 /* DDWaterFall */,
 				A54D6F6820C7EF6B0027C1D7 /* Products */,
+				9A466A9CF2A8EF3EEC6D2F3F /* Pods */,
+				C58F5B32B62BBDE1C2D388A1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,10 +97,21 @@
 		A54D6F6920C7EF6B0027C1D7 /* DDWaterFall */ = {
 			isa = PBXGroup;
 			children = (
+				A54D6F8420C7F02D0027C1D7 /* content.json */,
+				A54D6F8920C7F0830027C1D7 /* Tools */,
+				A54D6F8020C7F0260027C1D7 /* Network */,
 				A54D6F6A20C7EF6B0027C1D7 /* AppDelegate.h */,
 				A54D6F6B20C7EF6B0027C1D7 /* AppDelegate.m */,
 				A54D6F6D20C7EF6B0027C1D7 /* ViewController.h */,
 				A54D6F6E20C7EF6B0027C1D7 /* ViewController.m */,
+				A54D6F8E20C7F0830027C1D7 /* DDWaterFallLayout.h */,
+				A54D6F8F20C7F0830027C1D7 /* DDWaterFallLayout.m */,
+				A54D6F8620C7F0820027C1D7 /* MyCell.h */,
+				A54D6F9120C7F0830027C1D7 /* MyCell.m */,
+				A54D6F9020C7F0830027C1D7 /* MyCell.xib */,
+				A54D6F8820C7F0830027C1D7 /* MyWaterfall.h */,
+				A54D6F8720C7F0820027C1D7 /* MyWaterfall.m */,
+				A54D6F9820C7F0900027C1D7 /* PrefixH.pch */,
 				A54D6F7020C7EF6B0027C1D7 /* Main.storyboard */,
 				A54D6F7320C7EF6C0027C1D7 /* Assets.xcassets */,
 				A54D6F7520C7EF6C0027C1D7 /* LaunchScreen.storyboard */,
@@ -71,6 +121,34 @@
 			path = DDWaterFall;
 			sourceTree = "<group>";
 		};
+		A54D6F8020C7F0260027C1D7 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				A54D6F8120C7F0260027C1D7 /* Network.h */,
+				A54D6F8220C7F0260027C1D7 /* Network.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		A54D6F8920C7F0830027C1D7 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				A54D6F8A20C7F0830027C1D7 /* AFNetworkTool.h */,
+				A54D6F8B20C7F0830027C1D7 /* AFNetworkTool.m */,
+				A54D6F8C20C7F0830027C1D7 /* UIImage+ImgSize.h */,
+				A54D6F8D20C7F0830027C1D7 /* UIImage+ImgSize.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		C58F5B32B62BBDE1C2D388A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				595BE01432589329A2E07F43 /* libPods-DDWaterFall.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,9 +156,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A54D6F7D20C7EF6C0027C1D7 /* Build configuration list for PBXNativeTarget "DDWaterFall" */;
 			buildPhases = (
+				3E55CC6E830C5A8508DC8590 /* [CP] Check Pods Manifest.lock */,
 				A54D6F6320C7EF6B0027C1D7 /* Sources */,
 				A54D6F6420C7EF6B0027C1D7 /* Frameworks */,
 				A54D6F6520C7EF6B0027C1D7 /* Resources */,
+				6FA4CB19D7D65393D1BAE533 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,10 +211,51 @@
 				A54D6F7720C7EF6C0027C1D7 /* LaunchScreen.storyboard in Resources */,
 				A54D6F7420C7EF6C0027C1D7 /* Assets.xcassets in Resources */,
 				A54D6F7220C7EF6B0027C1D7 /* Main.storyboard in Resources */,
+				A54D6F8520C7F02D0027C1D7 /* content.json in Resources */,
+				A54D6F9620C7F0830027C1D7 /* MyCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3E55CC6E830C5A8508DC8590 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DDWaterFall-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6FA4CB19D7D65393D1BAE533 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DDWaterFall/Pods-DDWaterFall-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DDWaterFall/Pods-DDWaterFall-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A54D6F6320C7EF6B0027C1D7 /* Sources */ = {
@@ -143,6 +264,12 @@
 			files = (
 				A54D6F6F20C7EF6B0027C1D7 /* ViewController.m in Sources */,
 				A54D6F7A20C7EF6C0027C1D7 /* main.m in Sources */,
+				A54D6F8320C7F0260027C1D7 /* Network.m in Sources */,
+				A54D6F9320C7F0830027C1D7 /* AFNetworkTool.m in Sources */,
+				A54D6F9420C7F0830027C1D7 /* UIImage+ImgSize.m in Sources */,
+				A54D6F9720C7F0830027C1D7 /* MyCell.m in Sources */,
+				A54D6F9220C7F0830027C1D7 /* MyWaterfall.m in Sources */,
+				A54D6F9520C7F0830027C1D7 /* DDWaterFallLayout.m in Sources */,
 				A54D6F6C20C7EF6B0027C1D7 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,10 +408,12 @@
 		};
 		A54D6F7E20C7EF6C0027C1D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66F49D304176392F8F87E53F /* Pods-DDWaterFall.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C8JE43744R;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DDWaterFall/PrefixH.pch";
 				INFOPLIST_FILE = DDWaterFall/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -298,10 +427,12 @@
 		};
 		A54D6F7F20C7EF6C0027C1D7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90D0241571C73CDBFE3DC5FA /* Pods-DDWaterFall.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C8JE43744R;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DDWaterFall/PrefixH.pch";
 				INFOPLIST_FILE = DDWaterFall/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
