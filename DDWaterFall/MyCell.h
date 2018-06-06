@@ -14,8 +14,5 @@
 
 @property (nonatomic, strong) MyWaterfall * shop;
 
-@property (weak, nonatomic) IBOutlet UIImageView *imggeV;
-
-@property (weak, nonatomic) IBOutlet UILabel *lb_text;
 
 @end

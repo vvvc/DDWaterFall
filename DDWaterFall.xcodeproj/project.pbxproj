@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0BE2A72720C8271B002B2BF8 /* aaaa.json in Resources */ = {isa = PBXBuildFile; fileRef = 0BE2A72620C8271B002B2BF8 /* aaaa.json */; };
 		A54D6F6C20C7EF6B0027C1D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A54D6F6B20C7EF6B0027C1D7 /* AppDelegate.m */; };
 		A54D6F6F20C7EF6B0027C1D7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A54D6F6E20C7EF6B0027C1D7 /* ViewController.m */; };
 		A54D6F7220C7EF6B0027C1D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A54D6F7020C7EF6B0027C1D7 /* Main.storyboard */; };
@@ -14,17 +15,16 @@
 		A54D6F7720C7EF6C0027C1D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A54D6F7520C7EF6C0027C1D7 /* LaunchScreen.storyboard */; };
 		A54D6F7A20C7EF6C0027C1D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A54D6F7920C7EF6C0027C1D7 /* main.m */; };
 		A54D6F8320C7F0260027C1D7 /* Network.m in Sources */ = {isa = PBXBuildFile; fileRef = A54D6F8220C7F0260027C1D7 /* Network.m */; };
-		A54D6F8520C7F02D0027C1D7 /* content.json in Resources */ = {isa = PBXBuildFile; fileRef = A54D6F8420C7F02D0027C1D7 /* content.json */; };
 		A54D6F9220C7F0830027C1D7 /* MyWaterfall.m in Sources */ = {isa = PBXBuildFile; fileRef = A54D6F8720C7F0820027C1D7 /* MyWaterfall.m */; };
 		A54D6F9320C7F0830027C1D7 /* AFNetworkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A54D6F8B20C7F0830027C1D7 /* AFNetworkTool.m */; };
 		A54D6F9420C7F0830027C1D7 /* UIImage+ImgSize.m in Sources */ = {isa = PBXBuildFile; fileRef = A54D6F8D20C7F0830027C1D7 /* UIImage+ImgSize.m */; };
 		A54D6F9520C7F0830027C1D7 /* DDWaterFallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = A54D6F8F20C7F0830027C1D7 /* DDWaterFallLayout.m */; };
-		A54D6F9620C7F0830027C1D7 /* MyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A54D6F9020C7F0830027C1D7 /* MyCell.xib */; };
 		A54D6F9720C7F0830027C1D7 /* MyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A54D6F9120C7F0830027C1D7 /* MyCell.m */; };
 		E2E2DF82F51619729833F56B /* libPods-DDWaterFall.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 595BE01432589329A2E07F43 /* libPods-DDWaterFall.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0BE2A72620C8271B002B2BF8 /* aaaa.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = aaaa.json; sourceTree = SOURCE_ROOT; };
 		595BE01432589329A2E07F43 /* libPods-DDWaterFall.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DDWaterFall.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		66F49D304176392F8F87E53F /* Pods-DDWaterFall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDWaterFall.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DDWaterFall/Pods-DDWaterFall.debug.xcconfig"; sourceTree = "<group>"; };
 		90D0241571C73CDBFE3DC5FA /* Pods-DDWaterFall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDWaterFall.release.xcconfig"; path = "Pods/Target Support Files/Pods-DDWaterFall/Pods-DDWaterFall.release.xcconfig"; sourceTree = "<group>"; };
@@ -40,7 +40,6 @@
 		A54D6F7920C7EF6C0027C1D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A54D6F8120C7F0260027C1D7 /* Network.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Network.h; sourceTree = "<group>"; };
 		A54D6F8220C7F0260027C1D7 /* Network.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Network.m; sourceTree = "<group>"; };
-		A54D6F8420C7F02D0027C1D7 /* content.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = content.json; sourceTree = "<group>"; };
 		A54D6F8620C7F0820027C1D7 /* MyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCell.h; sourceTree = "<group>"; };
 		A54D6F8720C7F0820027C1D7 /* MyWaterfall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyWaterfall.m; sourceTree = "<group>"; };
 		A54D6F8820C7F0830027C1D7 /* MyWaterfall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyWaterfall.h; sourceTree = "<group>"; };
@@ -50,7 +49,6 @@
 		A54D6F8D20C7F0830027C1D7 /* UIImage+ImgSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImgSize.m"; sourceTree = "<group>"; };
 		A54D6F8E20C7F0830027C1D7 /* DDWaterFallLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDWaterFallLayout.h; sourceTree = "<group>"; };
 		A54D6F8F20C7F0830027C1D7 /* DDWaterFallLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDWaterFallLayout.m; sourceTree = "<group>"; };
-		A54D6F9020C7F0830027C1D7 /* MyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCell.xib; sourceTree = "<group>"; };
 		A54D6F9120C7F0830027C1D7 /* MyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCell.m; sourceTree = "<group>"; };
 		A54D6F9820C7F0900027C1D7 /* PrefixH.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixH.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -97,18 +95,17 @@
 		A54D6F6920C7EF6B0027C1D7 /* DDWaterFall */ = {
 			isa = PBXGroup;
 			children = (
-				A54D6F8420C7F02D0027C1D7 /* content.json */,
 				A54D6F8920C7F0830027C1D7 /* Tools */,
 				A54D6F8020C7F0260027C1D7 /* Network */,
 				A54D6F6A20C7EF6B0027C1D7 /* AppDelegate.h */,
 				A54D6F6B20C7EF6B0027C1D7 /* AppDelegate.m */,
 				A54D6F6D20C7EF6B0027C1D7 /* ViewController.h */,
 				A54D6F6E20C7EF6B0027C1D7 /* ViewController.m */,
+				0BE2A72620C8271B002B2BF8 /* aaaa.json */,
 				A54D6F8E20C7F0830027C1D7 /* DDWaterFallLayout.h */,
 				A54D6F8F20C7F0830027C1D7 /* DDWaterFallLayout.m */,
 				A54D6F8620C7F0820027C1D7 /* MyCell.h */,
 				A54D6F9120C7F0830027C1D7 /* MyCell.m */,
-				A54D6F9020C7F0830027C1D7 /* MyCell.xib */,
 				A54D6F8820C7F0830027C1D7 /* MyWaterfall.h */,
 				A54D6F8720C7F0820027C1D7 /* MyWaterfall.m */,
 				A54D6F9820C7F0900027C1D7 /* PrefixH.pch */,
@@ -211,8 +208,7 @@
 				A54D6F7720C7EF6C0027C1D7 /* LaunchScreen.storyboard in Resources */,
 				A54D6F7420C7EF6C0027C1D7 /* Assets.xcassets in Resources */,
 				A54D6F7220C7EF6B0027C1D7 /* Main.storyboard in Resources */,
-				A54D6F8520C7F02D0027C1D7 /* content.json in Resources */,
-				A54D6F9620C7F0830027C1D7 /* MyCell.xib in Resources */,
+				0BE2A72720C8271B002B2BF8 /* aaaa.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

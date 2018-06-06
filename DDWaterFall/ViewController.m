@@ -31,14 +31,13 @@
     layout.columnMargin = 10;
     layout.rowMargin = 10;
     layout.columnsCount = 2;
-    
+
     CGRect frame = CGRectMake(0, 20, self.view.bounds.size.width, self.view.frame.size.height - 20);
     UICollectionView * collectionView = [[UICollectionView alloc] initWithFrame:frame collectionViewLayout:layout];
     collectionView.backgroundColor = [UIColor orangeColor];
     collectionView.delegate = self;
     collectionView.dataSource = self;
     [collectionView registerClass:[MyCell class] forCellWithReuseIdentifier:@"cellId"];
-    [collectionView registerNib:[UINib nibWithNibName:@"MyCell" bundle:[NSBundle mainBundle]] forCellWithReuseIdentifier:@"cellId"];
     [collectionView registerClass:[UICollectionReusableView class] forSupplementaryViewOfKind:UICollectionElementKindSectionHeader withReuseIdentifier:HeaderID];
     [collectionView registerClass:[UICollectionReusableView class] forSupplementaryViewOfKind:UICollectionElementKindSectionFooter withReuseIdentifier:FooterID];
     
@@ -128,27 +127,36 @@ static NSString * const FooterID = @"FooterID";
 }
 
 - (void) loadMyInfoDataRequest {
+    
+    [Network getNetworkDataSuccess:^(NSDictionary *response) {
+        NSLog(@"%@",response);
+        self.dataDict = [NSDictionary dictionaryWithDictionary:response[@"data"]];
+        [self.shops removeAllObjects];
+        NSArray * arr = response[@"data"][@"photos"];
+        for (NSDictionary * dict in arr) {
+            MyWaterfall * model = [MyWaterfall new];
+            model.img = dict[@"img"];
+            model.price = dict[@"content"];
+            model.w = [dict[@"width"] doubleValue];
+            model.h = [dict[@"height"] doubleValue];
+            [self.shops addObject:model];
+        }
+        NSLog(@"%@",self.shops);
+        [self.myCollectionView reloadData];
+        [self.myCollectionView.mj_header endRefreshing];
+    } failure:^(NSError *error) {
+        
+    }];
+    
+    
+    
+    
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
         NSString *str = [NSString stringWithFormat:@"http://139.196.101.133:8089/index.php/CApi/Index/personal_center/cuser_id/2"];
         [AFNetworkTool getNetworkDataSuccess:^(NSDictionary *response) {
             NSData * data = (NSData *)response;
             NSDictionary * dictttt = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableLeaves error:nil];
-            self.dataDict = [NSDictionary dictionaryWithDictionary:dictttt[@"data"]];
-            [self.shops removeAllObjects];
-            NSArray * arr = dictttt[@"data"][@"photos"];
-            for (NSDictionary * dict in arr) {
-                MyWaterfall * model = [MyWaterfall new];
-                model.img = dict[@"img"];
-                model.price = dict[@"content"];
-                CGSize size = [UIImage getImageSizeWithURL:[NSURL URLWithString:dict[@"img"]]];
-                NSLog(@"%0.f----%0.f", size.height,size.width);
-                model.w = size.width;
-                model.h = size.height;
-                [self.shops addObject:model];
-            }
-            NSLog(@"%@",self.shops);
-            [self.myCollectionView reloadData];
-            [self.myCollectionView.mj_header endRefreshing];
+           
         } failure:^(NSError *error) {
         } withUrl:str];
         dispatch_async(dispatch_get_main_queue(), ^{

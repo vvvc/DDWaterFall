@@ -10,7 +10,7 @@
 @implementation Network
 
 +(void)getNetworkDataSuccess:(NetworkSucess)success failure:(NetworkFailure)failure {
-    NSData *JSONData = [NSData dataWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"content" ofType:@"json"]];
+    NSData *JSONData = [NSData dataWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"aaaa" ofType:@"json"]];
     NSDictionary *json =  [NSJSONSerialization JSONObjectWithData:JSONData options:NSJSONReadingAllowFragments error:nil];
     if(success) success(json);
 }
