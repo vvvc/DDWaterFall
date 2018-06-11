@@ -20,6 +20,7 @@
 		A54D6F9420C7F0830027C1D7 /* UIImage+ImgSize.m in Sources */ = {isa = PBXBuildFile; fileRef = A54D6F8D20C7F0830027C1D7 /* UIImage+ImgSize.m */; };
 		A54D6F9520C7F0830027C1D7 /* DDWaterFallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = A54D6F8F20C7F0830027C1D7 /* DDWaterFallLayout.m */; };
 		A54D6F9720C7F0830027C1D7 /* MyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A54D6F9120C7F0830027C1D7 /* MyCell.m */; };
+		A555AE4F20C8BA7300BE2C49 /* UILabel+WHAuto.m in Sources */ = {isa = PBXBuildFile; fileRef = A555AE4E20C8BA7300BE2C49 /* UILabel+WHAuto.m */; };
 		E2E2DF82F51619729833F56B /* libPods-DDWaterFall.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 595BE01432589329A2E07F43 /* libPods-DDWaterFall.a */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +52,8 @@
 		A54D6F8F20C7F0830027C1D7 /* DDWaterFallLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDWaterFallLayout.m; sourceTree = "<group>"; };
 		A54D6F9120C7F0830027C1D7 /* MyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCell.m; sourceTree = "<group>"; };
 		A54D6F9820C7F0900027C1D7 /* PrefixH.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixH.pch; sourceTree = "<group>"; };
+		A555AE4D20C8BA7300BE2C49 /* UILabel+WHAuto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+WHAuto.h"; sourceTree = "<group>"; };
+		A555AE4E20C8BA7300BE2C49 /* UILabel+WHAuto.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+WHAuto.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +111,8 @@
 				A54D6F9120C7F0830027C1D7 /* MyCell.m */,
 				A54D6F8820C7F0830027C1D7 /* MyWaterfall.h */,
 				A54D6F8720C7F0820027C1D7 /* MyWaterfall.m */,
+				A555AE4D20C8BA7300BE2C49 /* UILabel+WHAuto.h */,
+				A555AE4E20C8BA7300BE2C49 /* UILabel+WHAuto.m */,
 				A54D6F9820C7F0900027C1D7 /* PrefixH.pch */,
 				A54D6F7020C7EF6B0027C1D7 /* Main.storyboard */,
 				A54D6F7320C7EF6C0027C1D7 /* Assets.xcassets */,
@@ -258,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A555AE4F20C8BA7300BE2C49 /* UILabel+WHAuto.m in Sources */,
 				A54D6F6F20C7EF6B0027C1D7 /* ViewController.m in Sources */,
 				A54D6F7A20C7EF6C0027C1D7 /* main.m in Sources */,
 				A54D6F8320C7F0260027C1D7 /* Network.m in Sources */,

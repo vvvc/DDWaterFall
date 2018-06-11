@@ -41,20 +41,22 @@
 }
 -(void)configSubviews
 {
-    _imageV = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, self.bounds.size.width, self.bounds.size.height - 20)];
+    _imageV = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, self.bounds.size.width, self.bounds.size.height - 30)];
     _imageV.contentMode = UIViewContentModeScaleAspectFill;
     _imageV.clipsToBounds = YES;
     [self addSubview:_imageV];
-    _lb_text = [[UILabel alloc]initWithFrame:CGRectMake(0, self.bounds.size.height - 20, self.bounds.size.width, 20)];
+    _lb_text = [[UILabel alloc]initWithFrame:CGRectMake(0, self.bounds.size.height - 30, self.bounds.size.width, 30)];
     _lb_text.text = @"aaaaasdsdss";
+    _lb_text.numberOfLines = 0;
+    _lb_text.font = [UIFont systemFontOfSize:10];
     [self addSubview:_lb_text];
 }
 
 //这个方法极为重要
 -(void)layoutSubviews {
     [super layoutSubviews];
-    CGRect framea  = CGRectMake(0, 0, self.bounds.size.width, self.bounds.size.height - 20);
-    CGRect frameb =  CGRectMake(0, self.bounds.size.height - 20, self.bounds.size.width, 20);
+    CGRect framea  = CGRectMake(0, 0, self.bounds.size.width, self.bounds.size.height - 35);
+    CGRect frameb =  CGRectMake(0, self.bounds.size.height - 35, self.bounds.size.width, 35);
     _imageV.frame = framea;
     _lb_text.frame = frameb;
 }
